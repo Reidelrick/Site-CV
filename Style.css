@@ -1,0 +1,33 @@
+body 
+{ 
+background-color: #242424; /* Le fond de la page sera noir */ 
+color: white; /* Le texte de la page sera blanc */ 
+} 
+header {
+  padding: 5px;
+  background-color: #ff7b00;
+}
+
+a:link {
+  color: #ed7300;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #c25e00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7b00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ff7b00;
+  background-color: transparent;
+  text-decoration: none;
+}
