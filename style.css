@@ -1,9 +1,10 @@
 body 
 { 
-background-color: #242424; /* Le fond de la page sera noir */ 
-color: white; /* Le texte de la page sera blanc */ 
+  background-color: #242424; /* Le fond de la page sera noir */ 
+  color: white; /* Le texte de la page sera blanc */ 
 } 
 header {
+  border-radius: 10px;
   padding: 5px;
   background-color: #ff7b00;
 }
@@ -21,6 +22,7 @@ a:visited {
 }
 
 a:hover {
+  text-shadow: 2px 2px #000000;
   color: #ff7b00;
   background-color: transparent;
   text-decoration: none;
@@ -30,4 +32,8 @@ a:active {
   color: #ff7b00;
   background-color: transparent;
   text-decoration: none;
+}
+
+h1 {
+  text-shadow: 6px 6px #000000;
 }
