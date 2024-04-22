@@ -1,8 +1,13 @@
-body 
-{ 
-  background-color: #242424; /* Le fond de la page sera noir */ 
-  color: white; /* Le texte de la page sera blanc */ 
-} 
+body { 
+  color: white;
+  font-family: "Garamond", Garamond, serif;
+}
+
+html {
+  background: linear-gradient(120deg, #242424, #343434, #242424) no-repeat center fixed;
+  background-size: cover;
+}
+
 header {
   border-radius: 10px;
   padding: 5px;
@@ -54,4 +59,11 @@ h1 {
   text-align: center;
   padding: 12px 12px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
